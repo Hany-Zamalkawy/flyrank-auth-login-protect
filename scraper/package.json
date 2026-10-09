@@ -1,0 +1,17 @@
+{
+  "name": "flyrank-polite-scraper",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A polite, cache-first Books to Scrape pipeline for FlyRank Internship Week 5 Assignment A9.",
+  "type": "commonjs",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "scrape": "node src/index.js",
+    "test": "node --test",
+    "check:robots": "node src/check-robots.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "zod": "^4.1.12"
+  }
+}
